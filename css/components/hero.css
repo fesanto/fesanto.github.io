@@ -1,0 +1,14 @@
+.hero {
+  background-color: #8395a7;
+  padding: 60px 0;
+  text-align: center;
+  border-bottom: 8px solid #fff;
+}
+
+.hero .subtitle {
+  margin: 20px 0 60px 0;
+}
+
+.hero .btn {
+  margin: 0 15px;
+}
