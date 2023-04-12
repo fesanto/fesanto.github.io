@@ -1,11 +1,11 @@
-.title {
+.main-title {
   font-family: 'Orbitron', sans-serif;
   font-size: 40px;
   color: #60E2FFB2;
   text-shadow: 3px 3px 1px #000;
 }
 
-.title.-secondary {
+.main-title.-secondary {
   color: #fff;
   text-shadow: none;
   text-align: center;
