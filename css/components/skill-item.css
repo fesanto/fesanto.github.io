@@ -1,21 +1,21 @@
-.skill {
+.skill-item {
   display: flex;
   align-items: center;
   font-size: 25px;
   color: #fff;
 }
 
-.skill .icon {
+.skill-item .icon {
   margin-right: 25px;
   width: 70px;
 }
 
-.skill .right {
+.skill-item .right {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
 
-.skill .title {
+.skill-item .title {
   margin-bottom: 10px;
 }
