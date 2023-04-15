@@ -17,6 +17,10 @@
   transform: translateX(3px);
 }
 
+.arrow-btn.-left::before {
+  transform: rotate(180deg) translateX(13px);
+}
+
 .arrow-btn .content {
   display: none;
 }
