@@ -1,8 +1,7 @@
 .main-carousel {
-  display: flex;
-  justify-content: space-between;
   position: relative;
   padding: 0 100px;
+  overflow: hidden;
 }
 
 .main-carousel::before {
@@ -36,4 +35,14 @@
 
 .main-carousel .arrow-btn.-right {
   right: 15px;
+}
+
+.main-carousel .items {
+  overflow: hidden;
+}
+
+.main-carousel .elements {
+  display: flex;
+  justify-content: space-between;
+  transition: transform 100ms ease-in-out;
 }
