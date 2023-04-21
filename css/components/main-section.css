@@ -1,5 +1,5 @@
 .main-section {
-  background-color: #60E2FFB2;
+  background-color: #60e2ffb2;
   padding: 50px 0 100px 0;
   border-bottom: 8px solid #fff;
 }
@@ -17,10 +17,15 @@
 }
 
 .main-section .ghlink {
-  display: block;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 60px;
   text-decoration: none;
   color: #fff;
   font-size: 20px;
+}
+
+.main-section .ghlink figure {
+  padding-right: 20px;
 }
