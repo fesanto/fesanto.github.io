@@ -16,6 +16,10 @@
   background-color: #576574;
 }
 
+.main-section .main-description {
+  margin-top: 60px;
+}
+
 .main-section .ghlink {
   display: flex;
   justify-content: center;
@@ -31,7 +35,7 @@
 }
 
 .main-section.-form {
-  padding: 50px 40px 100px 40px;
+  padding: 50px 100px 100px 100px;
 }
 
 .main-section .main-input {

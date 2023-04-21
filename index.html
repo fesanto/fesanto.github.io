@@ -31,6 +31,7 @@
   <link rel="stylesheet" href="css/components/main-label.css">
   <link rel="stylesheet" href="css/components/main-input.css">
   <link rel="stylesheet" href="css/components/main-footer.css">
+  <link rel="stylesheet" href="css/components/btn-fixed.css">
   <title>Fernanda Santo</title>
 </head>
 
@@ -38,10 +39,10 @@
   <header class="main-header">
     <h2 class="main-logo">FS</h2>
     <nav>
-      <a class="main-action" href="">Skills</a>
-      <a class="main-action" href="">Projects</a>
-      <a class="main-action" href="">About</a>
-      <a class="main-action" href="">Contact</a>
+      <a class="main-action" href="#skills">Skills</a>
+      <a class="main-action" href="#projects">Projects</a>
+      <a class="main-action" href="#about">About</a>
+      <a class="main-action" href="#contact">Contact</a>
       <a class="main-btn" href="">Download CV</a>
     </nav>
   </header>
@@ -49,10 +50,10 @@
     <h1 class="main-title">Fernanda Santo</h1>
     <h2 class="main-subtitle">FrontEnd Developer</h2>
     <a class="main-btn" href="">Download CV</a>
-    <a class="main-btn" href="">Contact</a>
+    <a class="main-btn" href="#contact">Contact</a>
   </section>
 
-  <section class="main-section">
+  <section class="main-section" id="skills">
     <h2 class="main-title -secondary">Skills</h2>
     <div class="wrapper-skill">
       <article class="skill-item">
@@ -121,7 +122,7 @@
     </div>
   </section>
 
-  <section class="main-section -bg-black">
+  <section class="main-section -bg-black" id="projects">
     <h2 class="main-title -secondary">Projects</h2>
     <div class="wrapper-project">
       <a href="" target="_blank">
@@ -148,7 +149,7 @@
     </a>
   </section>
 
-  <section class="main-section -bg-gray">
+  <section class="main-section -form -bg-gray" id="about">
     <h2 class="main-title -secondary">About</h2>
 
     <section class="main-carousel">
@@ -203,7 +204,7 @@
     </p>
   </section>
 
-  <section class="main-section -form">
+  <section class="main-section -form" id="contact">
     <h2 class="main-title -secondary">Contact</h2>
     <form>
       <label class="main-label" for="name">Name:</label>
@@ -228,6 +229,12 @@
       </figure>
     </a>
   </footer>
+
+  <a class="btn-fixed" href="#top">
+    <img src="img/top-arrow.png" alt="top arrow">
+  </a>
+
+  <script src="js/components/btn-fixed.js"></script>
   <script src="js/components/main-carousel.js"></script>
 </body>
 

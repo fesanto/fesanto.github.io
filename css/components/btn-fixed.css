@@ -1,0 +1,10 @@
+.btn-fixed {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  visibility: hidden;
+}
+
+.btn-fixed.visible {
+  visibility: visible;
+}
