@@ -13,9 +13,9 @@
   color: #000;
 }
 
-.main-btn.-form {
+.main-btn.-submit {
+  font-family: "Fira Code", sans-serif;
   background-color: #ff9f43B2; 
   width: 100%;
-  margin-top: 20px;
   box-shadow: none;
 }
