@@ -1,0 +1,9 @@
+.main-footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 35px 0;
+}
+
+.main-footer.-bg-black {
+  background-color: #000;
+}

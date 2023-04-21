@@ -15,3 +15,12 @@
 .main-section.-bg-gray {
   background-color: #576574;
 }
+
+.main-section .ghlink {
+  display: block;
+  text-align: center;
+  margin-top: 60px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
