@@ -12,3 +12,10 @@
 .main-btn:hover {
   color: #000;
 }
+
+.main-btn.-form {
+  background-color: #ff9f43B2; 
+  width: 100%;
+  margin-top: 20px;
+  box-shadow: none;
+}
